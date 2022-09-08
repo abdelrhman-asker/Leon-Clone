@@ -1,0 +1,408 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: "Work Sans", sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+nav img {
+    width: 120px;
+    height: 50px;
+    margin-left: 100px;
+}
+.navbar div {
+    
+    width: fit-content;
+}
+nav div i {
+    width: fit-content;
+    height: 50px;
+    font-size: 40px;
+    margin-top: 5%;
+    cursor: pointer;
+    margin-right: 132px;
+}
+.secnavMain {
+    display: none;
+    position: fixed;
+    width: 80vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 2;
+}
+.secnav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    float: right;
+    width: 20vw;
+    height: 100vh;
+    z-index: 5;
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    display: none;
+    background-color: rgb(94, 94, 94);
+    opacity: 1;
+}
+.secnav a {
+    color: white;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.secnav a:hover {
+    color: rgb(6, 255, 6);
+}
+.secnav i {
+    cursor: pointer;
+    margin-bottom: 50px;
+color: white;
+    font-size: 40px;
+}
+.sec {
+    background-image: url(https://elzerowebschool.github.io/HTML_And_CSS_Template_One/images/landing.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+
+}
+
+.main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    max-width: 100%;
+}
+
+.main h1 {
+    margin: auto;
+    color: green;
+    font-size: 42px;
+    
+}
+
+.main h3 {
+    position: absolute;
+    padding-top: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(222, 222, 222) ;
+    padding: 60px 0;
+    height: fit-content;
+    
+}
+.col-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    text-align: center;
+}
+
+article div div i { 
+    color: rgb(0, 155, 129);
+    margin-bottom: 20px;
+}
+
+article div div strong {
+    font-weight: 8000;
+    font-family: "Work Sans", sans-serif;
+}
+
+article div div h4 {
+    opacity: 0.8;
+}
+.sec-two {
+    height: fit-content;
+    padding: 60px 0px 80px;
+    
+}
+.Serv-opa {
+    opacity: 0.2;
+    font-size: 68px;
+    color: black;
+    text-align: center;
+}
+
+.Serv-ind2 {
+    text-align: center;
+    margin-top: -22px;
+    font-size: 26px;
+    opacity: 0.7;
+}
+.rela {
+    position: relative;
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+.serv-img img {
+    position: absolute;
+    float: right;
+    z-index: 2;
+    width: 250px;
+    height: 300px;
+    
+}
+
+.serv-coloumn {
+    position: absolute;
+    width: 100px;
+    height: 400px;
+    left: 200px;
+    top: -65px;
+    float: right;
+    background-color: rgb(56, 48, 62);
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.main-section div{
+    width: 20%;
+    margin: 60px; 
+    margin-left: 0px; 
+
+}
+
+.design-elements {
+    width: 100%;
+    margin: 60px;
+}
+.design-elements h3{
+    width: 300px;
+}
+.design-elements h5 {
+    width: 300px;
+    opacity: 0.5;
+}
+
+.design-elements h3 i {
+    color: rgb(0, 139, 164);
+    margin-right: 10px;
+    margin-left: -20px;
+}
+
+.serv-opa2 {
+    opacity: 0.2;
+    font-size: 92px;
+    color: black;
+    text-align: center;
+    padding-top: 70px;
+}
+.serv-ind2-two {
+    text-align: center;
+    margin-top: -22px;
+    font-size: 18px;
+    opacity: 0.7;
+    padding-bottom: 70px;
+    
+}
+.port-section {
+    background-color: rgb(218, 218, 218);
+    width: 100vw;
+    height: fit-content;
+    padding-bottom: 70px;
+}
+.sec-three {
+    height: fit-content;
+    margin: 0;
+}
+
+.flex-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.flex-images div{
+    text-align: left;
+    border: 0 solid transparent;
+    background-color: white;
+    width: 360px;
+    margin-right: 60px;
+}
+
+.flem-img1{
+    width: 400px;
+    height: 300px;
+    
+}
+
+.flem-span1 {
+    font-size: 24px;
+    font-weight: 200px;
+}
+
+.type-div {
+    padding: 20px;
+    margin-top: -5px;
+}
+
+.about-sec {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    padding-bottom: 80px;
+}
+
+.about-sec div img {
+    width: 400px ;
+    height: 400px;
+    margin-left: 50px;
+
+}
+.about-div2 {
+    font-size: 20px;
+    width: 40%;
+    text-align: left;
+}
+.about-div2-span1 {
+    font-weight: 900;
+
+}
+.about-div2 hr {
+    width: 50%;
+    height: 1px;
+    background-color: green;
+    margin: 50px 0 30px;
+    
+}
+
+.about-div2-span2 {
+    opacity: 0.7;
+}
+
+.contact-sec {
+    background-color:rgb(218, 218, 218) ;
+    padding-bottom: 70px;
+}
+
+.feel-free {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.feel-free div h2 {
+    font-weight: 800;
+    margin-bottom: 0;
+    font-size: 42px;
+}
+.feel-free div a {
+    color: rgb(16 202 183);
+    font-weight: 800;
+    font-size: 42px;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+.feel-free h4{
+    margin-top: 0%;
+    font: 28px;
+    opacity: 0.9;
+}
+.feel-free h4 i {
+    margin: 10px;
+}
+
+footer {
+    background-color: rgb(44 71 85);
+    height: fit-content;
+    padding: 20px;
+}
+footer div {
+    color: white;
+    text-align: center; }
+footer div h2 {
+    font: 40px;
+}
+footer div span {
+    color: rgb(16 202 183);
+}
+
+
+@media screen and (min-width: 1px) and (max-width:1000px) {
+    .rela {
+        display: none;
+    }
+    .main-section {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .main-section div{
+        width: fit-content;
+        margin: 0px; 
+        margin-left: 10px; 
+    
+    }
+    .main-section{
+        margin-top: 20px;
+    }
+    .about-sec {
+        flex-direction: column-reverse;
+    }
+    .about-div2 {
+        margin-bottom: 30px ;
+    }
+}
+@media screen and (min-width: 1px) and (max-width:760px) {
+    .secnav {
+        width: 40%;
+    }
+    .feel-free div h2 {
+        font-size: 20px;
+    }
+    .feel-free div a {
+        font-size: 24px;
+    }
+    .about-div2 {
+        width: 95%;
+    }
+    .about-sec div img {
+        width: 250px;
+        height: 250px;
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 1px) and (max-width:360px) {
+    .secnav {
+        width: 100%;
+    }
+}
